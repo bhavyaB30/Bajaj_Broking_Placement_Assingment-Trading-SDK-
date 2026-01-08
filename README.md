@@ -2,7 +2,7 @@
 
 A robust **Trading SDK Demo** built with a modern stack: **FastAPI** for the backend, **SQLAlchemy** for database orchestration, and **Streamlit** for a responsive frontend. This project simulates a professional trading environment including order execution, portfolio management, and persistent data storage.
 
-[Image of a system architecture diagram showing a FastAPI backend connecting to a SQLite database and a Streamlit frontend]
+
 
 ---
 
@@ -28,12 +28,20 @@ A robust **Trading SDK Demo** built with a modern stack: **FastAPI** for the bac
 
 ```text
 trading-sdk-demo/
+├── screenshots/
+│   ├── backend_API         # FastAPI application & API routes
+│   ├── frontend
+    
 ├── backend/
 │   ├── main.py          # FastAPI application & API routes
+│   ├── seed_instruments.py
+│   ├── services.py
+│   ├── storage.py
 │   ├── models.py        # SQLAlchemy database models
 │   ├── database.py      # SQLite connection & session setup
-│   ├── crud.py          # Database operations (Create, Read, Update)
-│   └── requirements.txt # Backend dependencies
+│   ├── trading.db
+│   ├── exceptions.py         
+│   └── init_dp.py      # Backend dependencies
 └── frontend/
     ├── app.py           # Streamlit UI dashboard
-    └── requirements.txt # Frontend dependencies
+   
