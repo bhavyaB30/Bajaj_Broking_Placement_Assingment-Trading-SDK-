@@ -1,4 +1,4 @@
-# Trading SDK – Demo UI
+# Trading SDK – BAJAJ BROKING
 
 A robust **Trading SDK Demo** built with a modern stack: **FastAPI** for the backend, **SQLAlchemy** for database orchestration, and **Streamlit** for a responsive frontend. This project simulates a professional trading environment including order execution, portfolio management, and persistent data storage.
 
