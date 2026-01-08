@@ -17,10 +17,10 @@ A robust **Trading SDK Demo** built with a modern stack: **FastAPI** for the bac
 
 ## 🛠️ Tech Stack
 
-* **Backend:** [FastAPI](https://fastapi.tiangolo.com/) (High-performance Python API)
-* **Frontend:** [Streamlit](https://streamlit.io/) (Data-centric UI)
-* **Database:** [SQLAlchemy](https://www.sqlalchemy.org/) with SQLite (Easy to port to PostgreSQL)
-* **Validation:** [Pydantic](https://docs.pydantic.dev/) (Data schemas)
+* **Backend:** [FastAPI] (High-performance Python API)
+* **Frontend:** [Streamlit] (Data-centric UI)
+* **Database:** [SQLAlchemy]with SQLite (Easy to port to PostgreSQL)
+* **Validation:** [Pydantic] (Data schemas)
 
 ---
 
